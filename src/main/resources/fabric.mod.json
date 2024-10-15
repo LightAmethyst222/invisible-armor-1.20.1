@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "invisiblearmor",
+	"version": "${version}",
+	"name": "Invisible Armor",
+	"description": "Glass armor that has no stats it just fills a slot.",
+	"authors": [
+		"LightAmethyst222",
+		"BamofHam"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/invisiblearmor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lightamethyst.invisiblearmor.InvisibleArmor"
+		],
+		"client": [
+			"net.lightamethyst.invisiblearmor.InvisibleArmorClient"
+		],
+		"fabric-datagen": [
+			"net.lightamethyst.invisiblearmor.InvisibleArmorDataGenerator"
+		]
+	},
+	"mixins": [
+		"invisiblearmor.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
