@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "invisiblearmor:glass_helmet",
+    "invisiblearmor:glass_chestplate",
+    "invisiblearmor:glass_leggings",
+    "invisiblearmor:glass_boots"
+  ]
+}
